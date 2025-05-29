@@ -28,6 +28,31 @@
             color: #5e5e5e;
         }
 
+.intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text {
+    flex: 1 1 300px;
+}
+
+.intro-image {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
         section.intro, section.quiz {
             background: white;
             border-radius: 15px;
